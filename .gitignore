@@ -1,0 +1,5 @@
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+Pegasus.xcodeproj/xcuserdata/
+.DS_Store/

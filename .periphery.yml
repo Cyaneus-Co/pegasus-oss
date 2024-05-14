@@ -1,0 +1,6 @@
+project: Pegasus.xcodeproj
+retain_public: true
+schemes:
+- Pegasus
+targets:
+- Pegasus

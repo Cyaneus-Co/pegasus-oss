@@ -1,0 +1,20 @@
+id: "Label PRs against master with size and kind"
+when:
+  branch: ["master"]
+apply_labels:
+  matching:
+    - "size/*"
+    - "kind/*"
+
+---
+id: "Apply automerge label to docs only changes against master"
+when:
+  branch: ["master"]
+  changed_files_not:
+    - "*"
+    - "!*.md"
+apply_labels:
+  custom:
+    - "automerge"
+
+---
